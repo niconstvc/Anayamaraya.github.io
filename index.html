@@ -34,28 +34,35 @@
 
     <header id="Hero-Section" class="text-dark py-5 mt-5">
         <div class="container">
-            <div class="ms-auto ">
-                <img src="assets/img/fotocurriculum.jpg.jpg" width="140px">  
-                <h1 class="display-1 fw-bold my-5 text-primary">
+            <div class="d-flex align-items-center justify-content-center"> <!-- Agregado 'justify-content-center' para centrar horizontalmente -->
+                <img src="assets/img/fotocurriculum.jpg.jpg" width="140px" alt="Foto de perfil">  
+                <div class="datos ms-3"> <!-- Añadido un margen a la izquierda para separar la imagen de los datos -->
+                    <h2>Datos personales</h2>
+                    <ul>
+                        <li><strong>Nombre:</strong> Ana Maria Mayorga Ojeda</li>
+                        <li><strong>Lugar de nacimiento:</strong> Purranque, X Región, Chile</li>
+                        <li><strong>Fecha de nacimiento:</strong> 24/11/1976</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                <h1 class="res">
                     Resumen
                 </h1>
-               <p>De profesión Medico Veterinario, actualmente trabajo en una Ong dedicada a la rehabilitación de personas en situacion de discapacidad, me defino como una persona de gran curiosidad y capacidad de aprender cosas nuevas, por lo que e indagado en varias areas de las ciencias y la tecnologia.</p>
+               <p class="tex">De profesión Medico Veterinario, actualmente trabajo en una Ong dedicada a la rehabilitación
+                <br> de personas en situacion de discapacidad, me defino como una persona de gran curiosidad y 
+                <br> capacidad de aprender cosas nuevas, por lo que e indagado en varias areas de las ciencias y la tecnologia.</p>
             </div>
         </div>
     </header>
     <div class="container" >
       <div class="datos generales">
-         <h2> Datos personales</h2>
-         <ul>
-            <p><li>Nombre: Ana  Maria Mayorga Ojeda</li></p>
-             <p><li>Lugar de nacimiento: Purranque, x region, chile</li></p>
-             <p><li>Fecha de nacimiento: 24/11/1976 </li></p>
-      
+         
          <h2>Datos academicos</h2>
-         <OL>
+         <ol>
             <p>
                 <li> Colegio preciosa sangre</li>
-                <i class="bi bi-arrow-right"></i> 
+                <i class="bi bi-arrow-right "></i> 
                 <a href="http://www.colegiopreciosasangre.cl/"target="_blanck">pincha aquí</a>
             </p>
              <p>
@@ -86,7 +93,7 @@
                 <a href="https://desafiolatam.com/"target="_blanck"> pincha aquí</a>
             </p>
                
-          </OL> 
+          </ol> 
          <h2>Datos Laborales</h2>
          <OL>
              <p><li> Medico veterinario independiente</li></p>
